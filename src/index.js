@@ -65,3 +65,11 @@ fetch(url)
         
     }
 })
+
+//create new ramen off of form
+//save form element into var to reference
+//prevent default and put event listener on submit form
+//take values from the input field after event is executed
+//create new ramen "card" and populate values based on input
+//append to the menu
+//sorry ran out of time

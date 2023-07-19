@@ -54,7 +54,12 @@ fetch(url)
             ramenDetail.appendChild(ramenTitle, restaurant, )
             
             //display rating
-            
+            let ratingDisplayElement = document.getElementById("rating-display")
+            ratingDisplayElement.innerText = ratingInfo
+
+            //display comment
+            let commentDisplayElement = document.getElementById("comment-display")
+            commentDisplayElement.innerText = ramenComment
 
         })
         
